@@ -12,13 +12,11 @@ app.get('/', function (req, res) {
     res.render(__dirname + 'av2.html');
 });
 //EXPRESS SPECIFIC STUFF
-app.use('/static', express.static('static')); //For serving static files -->
-app.use(express.urlencoded({ extended: true }));
+// app.use('/static', express.static('static')); //For serving static files -->
+// app.use(express.urlencoded({ extended: true }));
 
 
-//HTML SPECIFIC STUFF
-app.set('view engine', 'html'); //Set the template engine as pug
-app.set('views', path.join(__dirname, '/views')); //Set the views directory
+
 
 //END POINTS 
 app.get('/home', (req, res) => {
