@@ -9,7 +9,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 app.engine('html', require('ejs').renderFile);
 app.get('/', function (req, res) {
-    res.render(__dirname + 'av2.html');
+    res.render(__dirname + 'index.html');
 });
 //EXPRESS SPECIFIC STUFF
 // app.use('/static', express.static('static')); //For serving static files -->
