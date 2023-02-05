@@ -48,7 +48,7 @@
 @media only screen and (max-width: 450px) {
     #navbar ul {
         display: flex;
-        margin-top: 10px;
+        margin-top: 0.625rem;
     }
 
     #navbar {
@@ -56,51 +56,51 @@
     }
 
     #logo img {
-        height: 50px;
-        margin-top: 100px;
+        height: 3.125rem;
+        margin-top: 6.25rem;
     }
 
     #home h1 {
-        font-size: 2rem;
+        font-size: 1.25rem;
     }
 
     #home p {
-        font-size: 0.8rem;
+        font-size: 0.5rem;
         display: flex;
         flex-direction: row;
         justify-content: center;
-        width: 255px;
+        width: 15.9375rem;
     }
 
     #inspire .box {
-        margin: 10px 10px;
-        padding: 15px;
+        margin: 0.625rem 0.625rem;
+        padding: 0.9375rem;
     }
 
     #inspire .box img {
-        height: 75px;
-        width: 100px;
+        height: 4.6875rem;
+        width: 6.25rem;
     }
 
     #inspire .box p {
-        font-size: 0.9rem;
+        font-size: 0.5625rem;
     }
 
     .h-primary {
-        font-size: 1rem;
-        margin-top: -23px; 
+        font-size: 0.625rem;
+        margin-top: -1.4375rem; 
     }
 
     .h-secondary {
-        font-size: 0.5rem;
+        font-size: 0.3125rem;
     }
 
     .client-item img {
-        height: 120px;
-        width: 140px;
+        height: 7.5rem;
+        width: 8.75rem;
     }
     #navbar ul li a {
-        padding: 5px 15px;
+        padding: 0.3125rem 0.9375rem;
         font-size: 1rem;
         display: block;
     }
@@ -108,43 +108,13 @@
         width: 100%;
     }
     #inspire{
-        margin: 30px 0px;
+        margin: 1.875rem 0rem;
         display: flex;
         flex-direction: column;
-        margin-left: 204px;
-        margin-right: -201px;
+        margin-left: 12.75rem;
+        margin-right: -12.4875rem;
     }
     #clients {
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 584px;
-        padding: 0px;
-        margin-top: -28px;
-    }
-    .h-primary center0{
-        margin: auto; 
-        display: flex;
-        margin-left: 335px;
-        margin-top: -32px;
-    }
-    .client-item{
-        margin: 45px 97px 8px 53px;
-        padding: 15px;
-        width: 12px;
-        margin-left: 65px;
-        margin-right: 27px;
-    }
-    .centerf{
-        margin-left: 198px;
-        width: 385px;
-    
-    }
-    .h-primary center1{
-        margin: auto; 
-        display: flex; 
-        margin-left: 335px; 
-        margin-top: -32px;
-    }
-
-}
