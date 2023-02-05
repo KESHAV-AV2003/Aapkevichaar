@@ -1,19 +1,144 @@
-/* Navigation section  */
-#navbar{
-    flex-direction: column;
+/* @media only screen and (max-width: 767px) {
+    #logo img {
+        height: 100px;
+    }
+
+    #navbar ul li a {
+        padding: 5px 15px;
+        font-size: 1rem;
+    }
+
+    #home h1 {
+        font-size: 2.5rem;
+    }
+
+    #home p {
+        font-size: 1.2rem;
+    }
+
+    #inspire .box {
+        margin: 15px 15px;
+        padding: 20px;
+    }
+
+    #inspire .box img {
+        height: 100px;
+        width: 150px;
+    }
+
+    #inspire .box p {
+        font-size: 1rem;
+    }
+
+    .h-primary {
+        font-size: 2.0rem;
+        margin-top: 200px;
+    }
+
+    .h-secondary {
+        font-size: 1.8rem;
+    }
+
+    .client-item img {
+        height: 150px;
+        width: 170px;
+    }
+} */
+
+@media only screen and (max-width: 450px) {
+    #navbar ul {
+        display: flex;
+        margin-top: 10px;
+    }
+
+    #navbar {
+        justify-content: center;
+    }
+
+    #logo img {
+        height: 50px;
+        margin-top: 100px;
+    }
+
+    #home h1 {
+        font-size: 2rem;
+    }
+
+    #home p {
+        font-size: 0.8rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 255px;
+    }
+
+    #inspire .box {
+        margin: 10px 10px;
+        padding: 15px;
+    }
+
+    #inspire .box img {
+        height: 75px;
+        width: 100px;
+    }
+
+    #inspire .box p {
+        font-size: 0.9rem;
+    }
+
+    .h-primary {
+        font-size: 1rem;
+        margin-top: -23px; 
+    }
+
+    .h-secondary {
+        font-size: 0.5rem;
+    }
+
+    .client-item img {
+        height: 120px;
+        width: 140px;
+    }
+    #navbar ul li a {
+        padding: 5px 15px;
+        font-size: 1rem;
+        display: block;
+    }
+    #home{
+        width: 100%;
+    }
+    #inspire{
+        margin: 30px 0px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 204px;
+        margin-right: -201px;
+    }
+    #clients {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 584px;
+        padding: 0px;
+        margin-top: -28px;
+    }
+    .h-primary center0{
+        margin: auto; 
+        display: flex;
+        margin-left: 335px;
+        margin-top: -32px;
+    }
+    .client-item{
+        margin: 45px 97px 8px 53px;
+        padding: 15px;
+        width: 12px;
+        margin-left: 65px;
+        margin-right: 27px;
+    }
+    .centerf{
+        margin-left: 198px;
+        width: 385px;
+    
+    }
+
 }
-
-/* Home section  */
-
-
-/* Inspiration section  */
-#inspire{
-    flex-direction: column;
-}
-
-/* Clients section  */
-#clients{
-    overflow: hidden;
-}
-
-/* Footer section */
