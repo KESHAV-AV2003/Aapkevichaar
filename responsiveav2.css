@@ -45,10 +45,10 @@
     }
 } */
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 1080px) {
     #navbar ul {
         display: flex;
-        margin-top: 0.625rem;
+        margin-top: 1.25rem;
     }
 
     #navbar {
@@ -56,65 +56,66 @@
     }
 
     #logo img {
-        height: 3.125rem;
-        margin-top: 6.25rem;
+        height: 6.25rem;
+        margin-top: 12.5rem;
     }
 
     #home h1 {
-        font-size: 1.25rem;
+        font-size: 2.5rem;
     }
 
     #home p {
-        font-size: 0.5rem;
+        font-size: 1rem;
         display: flex;
         flex-direction: row;
         justify-content: center;
-        width: 15.9375rem;
+        width: 31.875rem;
     }
 
     #inspire .box {
-        margin: 0.625rem 0.625rem;
-        padding: 0.9375rem;
+        margin: 1.25rem 1.25rem;
+        padding: 1.875rem;
     }
 
     #inspire .box img {
-        height: 4.6875rem;
-        width: 6.25rem;
+        height: 9.375rem;
+        width: 12.5rem;
     }
 
     #inspire .box p {
-        font-size: 0.5625rem;
+        font-size: 1.125rem;
     }
 
     .h-primary {
-        font-size: 0.625rem;
-        margin-top: -1.4375rem; 
+        font-size: 1.25rem;
+        margin-top: -2.875rem; 
     }
 
     .h-secondary {
-        font-size: 0.3125rem;
+        font-size: 0.625rem;
     }
 
     .client-item img {
-        height: 7.5rem;
-        width: 8.75rem;
+        height: 15rem;
+        width: 17.5rem;
     }
     #navbar ul li a {
-        padding: 0.3125rem 0.9375rem;
-        font-size: 1rem;
+        padding: 0.625rem 1.875rem;
+        font-size: 2rem;
         display: block;
     }
     #home{
         width: 100%;
     }
     #inspire{
-        margin: 1.875rem 0rem;
+        margin: 3.75rem 0rem;
         display: flex;
         flex-direction: column;
-        margin-left: 12.75rem;
-        margin-right: -12.4875rem;
+        margin-left: 25.5rem;
+        margin-right: -24.975rem;
     }
     #clients {
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: center;  } 
+}
