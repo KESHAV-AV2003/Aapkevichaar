@@ -140,5 +140,11 @@
         width: 385px;
     
     }
+    .h-primary center1{
+        margin: auto; 
+        display: flex; 
+        margin-left: 335px; 
+        margin-top: -32px;
+    }
 
 }
